@@ -78,7 +78,7 @@
         width: 100%;
         background: transparent;
         margin-top: 25px;
-        height: 260px;
+        height: 320px;
         overflow: scroll;
     }
 
@@ -122,7 +122,6 @@
     }
 
     .button{
-        margin-top: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
