@@ -1,0 +1,138 @@
+@media screen and (max-width: 900px) and (min-width: 300px){
+
+    
+
+    *{
+        background: #0f0c29;  
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        background: transparent;
+        height: 120px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.575);
+    }
+
+    header > a{
+        background: transparent;
+        text-decoration: none;
+    }
+
+    header > a > h1 {
+        background: transparent;
+        color: rgb(238, 238, 238);
+        font-size: 47px;
+        margin-top: 80px;
+        text-shadow: 0px 0px 9px rgba(255, 255, 255, 0.288);
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body2{
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-log{
+        background: rgba(238, 238, 238, 0.021);
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0px 0px 10px 6px rgba(255, 255, 255, 0.021);
+        outline: 1px solid rgba(255, 255, 255, 0.055);
+    }
+
+    .boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+    }
+
+    .boton > .ready{
+        background: transparent;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 22px;
+        width: 75%;
+        box-shadow: 0px 0px 10px rgba(238, 238, 238, 0.192);
+        border: 1px solid rgba(255, 255, 255, 0.781);
+        
+    }
+
+    .cont-ini{
+        display: flex;
+        justify-content: center;
+        height: 80px;
+        align-items: center;
+        background: transparent;
+    }
+
+    .cont-ini > h3{
+        background: transparent;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 8px  rgba(0, 255, 200, 0.568);
+        font-size: 25px;
+    }
+
+    .cont-inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 100%;
+        height: 60px;
+        background: transparent;
+       
+    }
+
+    .cont-inputs > label{
+        font-size: 22px;
+        margin-left: 10px;
+        font-weight: 500;
+        background: transparent;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 8px  rgba(0, 255, 200, 0.253);
+    }
+
+    .cont-inputs > .input{
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 0px 5px 5px rgba(238, 238, 238, 0.11);
+        margin-top: 10px;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.733);
+        padding: 17px;
+        
+    }
+
+    .cont-inputs > select {
+        background: transparent;
+        margin-top: 5px;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.733);
+        box-shadow: 0px 5px 5px rgba(238, 238, 238, 0.11);
+        color: white;
+    }
+
+
+    
+}
