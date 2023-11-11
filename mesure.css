@@ -1,0 +1,84 @@
+@media screen and (max-width: 900px) and (min-width: 300px){
+
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+
+
+    /*BODY SECTION*/
+
+    body{
+        background: #0f0c29;  
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    }
+
+
+
+
+
+
+     /*HEADER SECTION*/
+
+    header{
+        background: transparent;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header > a{
+        background: transparent;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    header > a > h1 {
+        background: transparent;
+        color: rgb(238, 238, 238);
+        font-size: 40px;
+        margin-top: 9px;
+        text-shadow: 0px 0px 9px rgba(255, 255, 255, 0.288);
+    }
+
+
+
+
+
+
+     /*PROFILE SECTION*/
+
+    .profile-ph{
+        width: 60px;
+        height: 60px;
+        margin: 20px 16px 0px 0px;
+        border: 2px solid rgb(129, 119, 59);
+        border-radius: 50%;
+    }
+    
+    .profile-ph > a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+    }
+
+    .profile-ph > a > img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+
+
+
+
+     
+
+}
